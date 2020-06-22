@@ -3,23 +3,11 @@
 BUILD_DIR=$1
 CACHE_DIR=$2
 
-mkdir -p $BUILD_DIR/.odbc
-
-find / -name *dbcins*
-
+find / -name *ibtdsodb*
 
 echo "[FreeTDS]
 Description=FreeTDS Driver
 Driver=/usr/lib/odbc/libtdsodbc.so
 Setup=/usr/lib/odbc/libtdsS.so
-" > /etc/odbcinst.ini
+" > /app/.apt/usr/share/tdsodbc/odbcinst.ini
 
-echo "[FreeTDS]
-Description=FreeTDS Driver
-Driver=/usr/lib/odbc/libtdsodbc.so
-Setup=/usr/lib/odbc/libtdsS.so
-" > /etc/unixODBC/odbcinst.ini
-
-
-
-# export ODBCSYSINI=$BUILD_DIR/.odbc
