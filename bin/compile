@@ -16,4 +16,6 @@ export ODBCINI=$BUILD_DIR/.odbc/odbc.ini
 
 echo $ODBCSYSINI
 echo $ODBCINI
-ls /
+ls /app
+ls -a /app
+ls /app/.apt/usr/lib/x86_64-linux-gnu/odbc/
