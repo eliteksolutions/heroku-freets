@@ -11,5 +11,5 @@ echo "[FreeTDS]
 Description=FreeTDS Driver
 Driver=/usr/lib/odbc/libtdsodbc.so
 Setup=/usr/lib/odbc/libtdsS.so
-" > /app/.apt/usr/share/tdsodbc/odbcinst.ini
+" > /usr/share/tdsodbc/odbcinst.ini
 
