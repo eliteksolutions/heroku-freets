@@ -4,7 +4,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 
 mkdir -p $BUILD_DIR/.odbc
-
+find / -name *dbcins*
 echo "[FreeTDS]
 Description=FreeTDS Driver
 Driver=/usr/lib/x86_64-linux-gnu/odbc/libtdsodbc.so
