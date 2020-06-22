@@ -16,11 +16,8 @@ Setup=/app/.apt/usr/lib/x86_64-linux-gnu/odbc/libtdsS.so
 
 
 ls /app
-ls -a /app
-ls /app/.apt
-ls /app/.apt/usr
-ls /app/.apt/usr/lib
-ls /app/.apt/usr/lib/x86_64-linux-gnu/odbc/
+ls /app/lib
+
 
 echo $ODBCSYSINI
 echo $ODBCINI
