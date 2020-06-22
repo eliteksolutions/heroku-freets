@@ -10,5 +10,3 @@ Driver=/app/.apt/usr/lib/x86_64-linux-gnu/odbc/libtdsodbc.so
 Setup=/app/.apt/usr/lib/x86_64-linux-gnu/odbc/libtdsS.so
 " > $BUILD_DIR/.odbc/odbcinst.ini
 
-export ODBCINI=$BUILD_DIR/.odbc/odbcinst.ini
-export ODBCSYSINI=$BUILD_DIR/.odbc
