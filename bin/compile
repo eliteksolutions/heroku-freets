@@ -14,6 +14,6 @@ Setup=/app/.apt/usr/lib/x86_64-linux-gnu/odbc/libtdsS.so
 export ODBCSYSINI=$BUILD_DIR/.odbc
 export ODBCINI=$BUILD_DIR/.odbc/odbc.ini
 
-echo ODBCSYSINI
-echo ODBCINI
+echo $ODBCSYSINI
+echo $ODBCINI
 ls /
