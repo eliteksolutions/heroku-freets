@@ -1,0 +1,14 @@
+#!/bin/sh
+
+BUILD_DIR=$1
+CACHE_DIR=$2
+
+mkdir -p $BUILD_DIR/.odbc
+
+echo "[FreeTDS]
+Description=FreeTDS Driver
+Driver=/usr/lib/odbc/libtdsodbc.so
+Setup=/usr/lib/odbc/libtdsS.so
+" > $BUILD_DIR/.odbc/odbcinst.ini
+
+# export ODBCSYSINI=$BUILD_DIR/.odbc
