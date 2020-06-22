@@ -4,7 +4,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 
 
-echo "[FreeTDS]
+echo "[FreeTfDS]
 Description=FreeTDS Driver
 Driver=/app/.apt/usr/lib/x86_64-linux-gnu/odbc/libtdsodbc.so
 Setup=/app/.apt/usr/lib/x86_64-linux-gnu/odbc/libtdsS.so
