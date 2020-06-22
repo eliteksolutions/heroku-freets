@@ -16,7 +16,7 @@ Setup=/app/.apt/usr/lib/x86_64-linux-gnu/odbc/libtdsS.so
 
 
 
-ls /app/.apt
+ls $BUILD_DIR
 ls /usr/lib/x86_64-linux-gnu/odbc
 echo $ODBCSYSINI
 echo $ODBCINI
